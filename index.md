@@ -9,7 +9,8 @@ The project is intended to convert an HC-SR04 module from an ultrasound ranging 
 
 Another program was written to print out the values for the grey scale and the values were added as string values to the string value 'grey' using a logic function.
 
-```TKinter Grey Scale Values
+### TKinter Grey Scale Values
+```
 dict = {'1:0.000000',
 '2:0.010204',
 '3:0.020408',
@@ -142,9 +143,11 @@ def shade_index(fImage):
             return values    
 ```
 
-The issue we face now and why the project has stopped temporarily, is simply finding a way to get a live stream and image data represented to the interface
+### Issues faced
 
-```Issues faced
+The issue we face now and why the project has stopped temporarily, is simply finding a way to get a live stream and image data represented to the interface.
+
+```
 # From Satyam Singh Narajan - https://www.codespeedy.com/video-streaming-in-tkinter-with-python/
 image = final.get_next_data()
 
@@ -182,8 +185,9 @@ stream()
 
 NevinsMcTwis.py is a project in it's infancy. The purpose of the project is to use the built-in functions of Beautiful Soup, Pandas and or Scrapy to autonomously run reccursive searches based on a single or a set of URL's and to be used as a plugin for other AI or autonomous systems .
 
+### NevinsMcTwis.py
 
-```NevinsMcTwis.py
+```
 # TODO: Make this more intuitive and question the directory - see ~/csvout.py (it's broken btw).
 # Check which directory we are in and change if set/required
 def dircheck(path):
