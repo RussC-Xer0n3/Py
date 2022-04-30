@@ -7,8 +7,9 @@ In the Py repository there are several unfinished projects which will be worked 
 
 The project is intended to convert an HC-SR04 module from an ultrasound ranging device to a full ultrasound interface using the boiler plate code and expanding on it with an interface included.
 
-Another program was written to print out the values for the grey scale and the values were added as string values to the string value 'grey' using a logic function...
-``` TKinter Grey Scale Values
+Another program was written to print out the values for the grey scale and the values were added as string values to the string value 'grey' using a logic function.
+
+```TKinter Grey Scale Values
 dict = {'1:0.000000',
 '2:0.010204',
 '3:0.020408',
@@ -181,7 +182,8 @@ And so the issues faced are
 
 NevinsMcTwis.py is a project in it's infancy. The purpose of the project is to use the built-in functions of Beautiful Soup, Pandas and or Scrapy to autonomously run reccursive searches based on a single or a set of URL's and to be used as a plugin for other AI or autonomous systems .
 
-``` NevinsMcTwis.py
+
+```NevinsMcTwis.py
 # TODO: Make this more intuitive and question the directory - see ~/csvout.py (it's broken btw).
 # Check which directory we are in and change if set/required
 def dircheck(path):
@@ -341,6 +343,7 @@ logFile_name = "test.csv"
 
 scrape(url, y, x)
 ```
+
 # What else is in the repo?
 
 ### Other projects which have been completed are...
