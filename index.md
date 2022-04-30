@@ -5,7 +5,9 @@
 
 In the Py repository there are several unfinished projects which will be worked on or have hit a 'brick wall' in their progress; In example, the [ultrasoundgui_basic_1.0.py](https://github.com/RussC-Xer0n3/Py/blob/main/ultrasoundgui_basic_1.0.py) project.
 
-The project is intended to convert an HC-SR04 module from an ultrasound ranging device to a full ultrasound interface using the boiler plate code and expanding on it with an interface included.
+The project is intended to convert an [HC-SR04 module](https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html) included with the [Freenove RFID raspberry PI starter kit](https://freenove.com/store.html) and their [subsequent tutorials](https://freenove.com/tutorial.html).
+
+The aim is to convert from an ultrasound ranging device to a full ultrasound interface using the boiler plate code and expanding on it with an interface included.
 
 Another program was written to print out the values for the grey scale and the values were added as string values to the string value 'grey' using a logic function.
 
@@ -352,7 +354,7 @@ scrape(url, y, x)
 
 ### Other projects which have been completed are...
 
-There are other projects in Py repository which were started and uploaded here which have since moved to another repository. [MAC Daddy](https://github.com/RussC-Xer0n3/Py/blob/main/mac_daddy.py) and [ip](https://github.com/RussC-Xer0n3/Py/blob/main/ip.py) are two examples of minified projects which were moved to separate related repositories.
+There are other projects in Py repository which were started and uploaded here which have since moved to another repository. [MAC Daddy](https://github.com/RussC-Xer0n3/Py/blob/main/mac_daddy.py) and [ip](https://github.com/RussC-Xer0n3/Py/blob/main/ip.py) are two examples of minified projects which were moved to [separate related repositories](https://github.com/RussC-Xer0n3/IP-Port) and [MAC here](https://github.com/RussC-Xer0n3/MAC).
 
 ### Check out
 
