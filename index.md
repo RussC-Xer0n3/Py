@@ -144,7 +144,7 @@ def shade_index(fImage):
 
 The issue we face now and why the project has stopped temporarily, is simply finding a way to get a live stream and image data represented to the interface
 
-``` Issue faced
+```Issues faced
 # From Satyam Singh Narajan - https://www.codespeedy.com/video-streaming-in-tkinter-with-python/
 image = final.get_next_data()
 
@@ -169,10 +169,10 @@ delay = int(ultrasound.LO / video.get_meta_data()['fps'])
 stream()
 ```
 
-And so the issues faced are
+### And so the issues faced are
 
 - Get an image representation
-- Get a feed live to the interface
+- Get a live feed stream to the interface
 - Get it displaying correctly and accurately on the interface
 
 # NevinsMcTwis.py
