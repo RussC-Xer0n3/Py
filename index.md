@@ -1,10 +1,7 @@
-![Xer0n3 Logo](https://github.com/RussC-Xer0n3/Xer0n3/blob/master/Xer0ne_1.png)
-
 # Python Minified Projects
-### Small scale projects to help learn and understand and solve real world scenarios 
+## Small scale projects to help learn and understand and solve real world scenarios 
 
 ### What's in the repo?
-
 In the Py repository there are several unfinished projects which will be worked on or have hit a 'brick wall' in their progress; In example, the [ultrasoundgui_basic_1.0.py](https://github.com/RussC-Xer0n3/Py/blob/main/ultrasoundgui_basic_1.0.py) project.
 
 The project is intended to convert an [HC-SR04 module](https://www.theengineeringprojects.com/2018/10/introduction-to-hc-sr04-ultrasonic-sensor.html) included with the [Freenove RFID raspberry PI starter kit](https://freenove.com/store.html) and their [subsequent tutorials](https://freenove.com/tutorial.html).
@@ -148,7 +145,6 @@ def shade_index(fImage):
 ```
 
 ### Issues faced
-
 The issue we face now and why the project has stopped temporarily, is simply finding a way to get a live stream and image data represented to the interface.
 
 ```
@@ -190,7 +186,6 @@ stream()
 NevinsMcTwis.py is a project in it's infancy. The purpose of the project is to use the built-in functions of Beautiful Soup, Pandas and or Scrapy to autonomously run reccursive searches based on a single or a set of URL's and to be used as a plugin for other AI or autonomous systems .
 
 ### NevinsMcTwis.py
-
 ```
 # TODO: Make this more intuitive and question the directory - see ~/csvout.py (it's broken btw).
 # Check which directory we are in and change if set/required
@@ -355,9 +350,9 @@ scrape(url, y, x)
 # What else is in the repo?
 
 ### Other projects which have been completed are...
+There are other projects in Py repository which were started and uploaded here which have since moved to another repository.
 
-There are other projects in Py repository which were started and uploaded here which have since moved to another repository. [MAC Daddy](https://github.com/RussC-Xer0n3/Py/blob/main/mac_daddy.py) and [ip](https://github.com/RussC-Xer0n3/Py/blob/main/ip.py) are two examples of minified projects which were moved to [separate related repositories](https://github.com/RussC-Xer0n3/IP-Port) and [MAC here](https://github.com/RussC-Xer0n3/MAC).
+[MAC Daddy](https://github.com/RussC-Xer0n3/Py/blob/main/mac_daddy.py) and [ip](https://github.com/RussC-Xer0n3/Py/blob/main/ip.py) are two examples of minified projects which were moved to separate related repositories[ip here](https://github.com/RussC-Xer0n3/IP-Port) and [MAC here](https://github.com/RussC-Xer0n3/MAC).
 
 ### Check out
-
 Why not check out [Shapes---python](https://github.com/RussC-Xer0n3/Shapes---python) whilst you are here, very interesting spacecraft code in there.
