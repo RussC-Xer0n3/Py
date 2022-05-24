@@ -13,8 +13,9 @@
     # In combination of FreeNove Code in directory
     # Freenove_RFID_Starter_Kit_for_Raspberry_Pi-master\Code\Python_Code\
     # \23.1.1_UltrasonicRanging
-    # Additional author is Xer0ne and referred herein
+    # Additional author is Xer0n3 and referred herein
     # Mike McGrath 'Python in easy steps'
+    # Version 1.2
 ##############################################################################
 
 import tkinter
@@ -26,7 +27,7 @@ window.title("UltraSound GUI")
 import math
 #import RPi.GPIO as GPIO
 import time
-import numpy as numpy
+import numpy as np
 import cv2 # OpenCV
 
 txPin=16 #tx 'trig'
@@ -129,40 +130,6 @@ window.mainloop()
 # Window shabizzle #
 #       END        #
 ####################
-
-'''
-shade_index()
-    Method is supposed to divide the values gathered from the ultrasound method
-    into a pool of 99 'pockets' associated with the color index for tkinter
-    then feed each index into the canvas (view port) at relevant points realtime via image_index()
-
-    The code below is intended to receive the data fed back from the
-    ultrasound() method and generate an image not dissimilar to ultrasound
-    in maternity wards. It's eventual intended purpose is to 'see' signals
-    from a separate piece of aparatus in the project.
-    Author - Xer0ne Et. Al
-''' 
-
-'''
-image_index()
-    from central pixel, radiate diagonally in 4 directions to edge of canvas
-    since frequencies are received radially, makes sense to replicate from 
-    a central point and project the data outwards on the canvas
-
-
-def image_index(values):
-
-    i = 79998 #central 'pixel' of image
-    g = values #gray1 for example
-    can = Canvas(window,width = 400,height = 400) #canvas of pixels
-    final = 0
-
-    for i in pow(can, 2):
-        
-        data = g * pow(i, 4)
-        can.create_image(data)
-        return
-'''
 '''
 https://www.rfcafe.com/references/electrical/image-frequency.htm - accessed 15/07/21
 
