@@ -11,9 +11,9 @@
     # In combination of FreeNove Code in directory
     # Freenove_RFID_Starter_Kit_for_Raspberry_Pi-master\Code\Python_Code\
     # \23.1.1_UltrasonicRanging
-    # Additional author is Xer0n3 and referred herein
+    # Additional author is Xer0ne and referred herein
     # Mike McGrath 'Python in easy steps'
-    # Version 1.2
+    # v 1.3
 ##############################################################################
 '''
 https://www.rfcafe.com/references/electrical/image-frequency.htm - accessed 15/07/21
@@ -137,75 +137,6 @@ btn.pack(side=RIGHT,padx=10)
 # contiguous
 window.mainloop()
 
-<<<<<<< HEAD
-=======
-####################
-# Window shabizzle #
-#       END        #
-####################
-'''
-https://www.rfcafe.com/references/electrical/image-frequency.htm - accessed 15/07/21
-
-    formula for frequency subtraction on ultrasonic sound frequencies -
-    Equations label the lines to indicate the origin of each product. 
-    Notice that a negative image of the "positive" frequencies is shown 
-    to the left of 0 Hz (DC). Negative frequencies are often used in 
-    order to make the equations easier to visualize (substitute fLO=-fLO and 
-    FImage=-FImage). It prevents the equations from needing to indicate 
-    subtracting a negative number, which is the equivalent of addition.
-
-    The fundamental equation for calculating the resulting frequencies from the 
-    presence of a local oscillator (our rf we want to "see") (fLO), the intended RF signal (our ultra sound) (fRF), and the 
-    unintended image (FImage), are as follows:
-
-    f = fLO - fRF
-
-    f = FImage - fLO = fRF + 2fIF (IF Intended frequencies)
-
-    Ok, then how do you prevent the image frequency from ending up in the IF band?
-    There are two methods that can be used alone or together, depending on your 
-    system requirements. The first is to use a filter to prevent the image frequency 
-    from ever getting to the mixer input. The other is to use a mixer whose 
-    construction is such that a phasing technique is used to cancel out the image 
-    frequency (an image-reject mixer).
-
-    PROPOSED MODDIFICATION - NOTES
-    Whilst we have the oscilator or frequencies which will be changing regularly
-    we want to be able to get an image of what we want to see;
-
-    since we already know difinitively which frequency we are emitting on the ultrasonic
-    we can subtract the received information from our known rf returning the 'disruption'
-    to what we are supposed to see thus returning the image.
-
-    example - we set the us to 2hz we are expecting to see 2hz rx after a tx
-    when subtracting 2hz from what is received the anomolies recorded in float values
-    should be what has interfered with that frequency depending on penetration values and
-    whether those disruptions effect higher pitched ranges not dissimilar to sonar.
-
-    furthermore, since the frequencies being measured are or may be variable , it
-    would make sense to subtract the rx from the tx yielding the interference as an image.
-
-    ultimately attempting to yield ultrasound effect into gui from ultrasound module HC-SR04 
-    may require longer or shorter wait times before each tx such as 0.1 sec because 340m/s is
-    approx sound velocity. Modded in src code.
-
-    https://en.wikipedia.org/wiki/Speed_of_sound 343 m/s
-
-    ###########################################################
-    # PROPOSED MODIFICATION -> f = fRF - fLO                  #
-    # because the local oscilator will be the device being    #
-    # monitored makes life a little easier since we will      #
-    # know which frequency is being used as the monitor       #
-    # thus we should subtract the LO from that data being     #
-    # received and it will permit us to see the differentials #
-    # either way the algorithm does the same thing however    #
-    # in the interest of ease seems simpler to subtract the   #
-    # frequency emitted out of the device with modulation     #
-    # from the constant expected from the HC-SR04 device      #
-    ###########################################################
-'''
-
->>>>>>> 3f60a955e1f96af554e47a77c7b05b5a38da0225
 '''
 ultrasound()
     designed to modify the capabilities of the HC-SR04 module to produce 
